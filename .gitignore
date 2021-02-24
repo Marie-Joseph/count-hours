@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/count-hours
+count-hours.so
+count-hours.dylib
+count-hours.dll
+count-hours.a
+count-hours.lib
+count-hours-test-*
+*.exe
+*.o
+*.obj
+*.lst
+hours-*-*.txt

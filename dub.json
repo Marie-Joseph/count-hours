@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Marie-Joseph"
+	],
+	"copyright": "Copyright © 2021, Marie-Joseph",
+	"description": "Keep track of work hours.",
+	"license": "CC-0",
+	"name": "count-hours"
+}
