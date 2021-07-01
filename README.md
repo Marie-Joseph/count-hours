@@ -5,12 +5,16 @@ A simple program to keep track of work hours.
 Simply get ahold of dub and run `dub build --build=release`.
 
 ## Functionality
-Can take in input manually and optionally write it out,
-or can read in a file. For example:
+Read a file or stdin, count the durations on each line, and print
+the result. The time format is "[HH:MM]-[HH:MM]".
 ```
-./count-hours -w
-# interactive session here
-ls
-# file called "hours-[date].txt"
-./count-hours --read hours-[date].txt
+$ count-hours
+> 12:15-15:21
+> 15:30-19:00
+> ^D
+> 6 hours, 36 minutes
+$ count-hours hours-test.txt
+> 16 hours, 57 minutes
+$ cat hours-test.txt | count-hours
+> 16 hours, 57 minutes
 ```
